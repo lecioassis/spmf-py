@@ -1,5 +1,5 @@
 # spmf-py
-Python Wrapper for SPMF 🐍 🎁
+Python Wrapper for SPMF
 
 ## Information
 The [SPMF](http://www.philippe-fournier-viger.com/spmf) [[1](https://github.com/LoLei/spmf-py#bibliography)] data mining Java library usable in Python.  

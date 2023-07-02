@@ -84,6 +84,7 @@ class Spmf:
         tf = tempfile.NamedTemporaryFile(delete=False)
         tf.write(bytes(input_text, 'UTF-8'))
         name = tf.name
+        tf.close()
         os.rename(name, name + file_ending)
         return name + file_ending
 
